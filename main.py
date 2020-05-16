@@ -37,7 +37,7 @@ class InstaBot:
             flw_btn = self.driver.find_element_by_xpath('/html/body/div[1]/section/main/div/header/section/div[1]/div[1]/span/span[1]/button')
             flw_btn.click()
         except:
-            print("Allready following!")
+            print("Already followed!")
 
     def send_msg(self, msg):
         self.start_following()
